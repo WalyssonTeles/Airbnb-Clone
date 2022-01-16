@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone AirBNB</title>
+    <link rel="icon" href="/assets/img/icon-airbnb.png">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/banner.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header__Container1">
+            <div class="header__logo">
+                <a href="https://www.airbnb.com.br/">
+                    <img src="/assets/img/logo-airbnb-branca.png" alt="logotipo airbnb" class="logo__image">
+                </a>
+            </div>
+            <nav class="header__nav">
+                <a href="#" class="nav__navItem">
+                    <h1 class="navItem__text">Lugares para ficar</h1>
+                    <p class="navItem__underline navItem__underline--first"></p>
+                </a>
+                <a href="#" class="nav__navItem">
+                    <h1 class="navItem__text">Experiências</h1>
+                    <p class="navItem__underline"></p>
+                </a>
+                <a href="#" class="nav__navItem">
+                    <h1 class="navItem__text">Experiências Online</h1>
+                    <p class="navItem__underline"></p>
+                </a>
+            </nav>
+            <div class="header__headerButton">
+                <a href="#" class="headerButton__Button">Seja um anfitrião!</a>
+                <a href="#" class="headerButton__Button">
+                    <div class="headerButton_Icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M4.083 9h1.946c.089-1.546.383-2.97.837-4.118A6.004 6.004 0 004.083 9zM10 2a8 8 0 100 16 8 8 0 000-16zm0 2c-.076 0-.232.032-.465.262-.238.234-.497.623-.737 1.182-.389.907-.673 2.142-.766 3.556h3.936c-.093-1.414-.377-2.649-.766-3.556-.24-.56-.5-.948-.737-1.182C10.232 4.032 10.076 4 10 4zm3.971 5c-.089-1.546-.383-2.97-.837-4.118A6.004 6.004 0 0115.917 9h-1.946zm-2.003 2H8.032c.093 1.414.377 2.649.766 3.556.24.56.5.948.737 1.182.233.23.389.262.465.262.076 0 .232-.032.465-.262.238-.234.498-.623.737-1.182.389-.907.673-2.142.766-3.556zm1.166 4.118c.454-1.147.748-2.572.837-4.118h1.946a6.004 6.004 0 01-2.783 4.118zm-6.268 0C6.412 13.97 6.118 12.546 6.03 11H4.083a6.004 6.004 0 002.783 4.118z" clip-rule="evenodd" />
+                          </svg>
+                    </div>
+                </a>
+                <a href="#" class="headerButton__Button user__iconMenu">
+                    <div  class="headerButton_Icon menu__Icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="rgb(99, 99, 99)">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </div>
+                    <div class="headerButton_Icon user__Icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="rgb(99, 99, 99)">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-6-3a2 2 0 11-4 0 2 2 0 014 0zm-2 4a5 5 0 00-4.546 2.916A5.986 5.986 0 0010 16a5.986 5.986 0 004.546-2.084A5 5 0 0010 11z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="header__Container2">
+            <div class="Container2__Search">
+                <a href="#" class="Search__SearchLink">
+                    <div class="SearchItem">
+                        <h1 class="SearchItem__Title">Localização</h1>
+                        <p class="SearchItem__Description">Para onde você vai?</p>
+                    </div>
+                </a>
+                <a href="#" class="Search__SearchLink">
+                    <div class="SearchItem">
+                        <h1 class="SearchItem__Title">Check-in</h1>
+                        <p class="SearchItem__Description">Quando?</p>
+                    </div>
+                </a>
+                <a href="#" class="Search__SearchLink">
+                    <div class="SearchItem">
+                        <h1 class="SearchItem__Title">Check-out</h1>
+                        <p class="SearchItem__Description">Quando?</p>
+                    </div>
+                </a>
+                <a href="#" class="Search__SearchLink">
+                    <div class="SearchItem">
+                        <h1 class="SearchItem__Title">Hóspedes</h1>
+                        <p class="SearchItem__Description">Hóspedes?</p>
+                    </div>
+                    <div class="svg__searchIcon">
+                        <div class="searchIcon__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="rgb(255, 255, 255)">
+                                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </header> 
+    <section class="sectionBanner"> 
+        <div class="banner__Container">
+            <img src="/assets/img/landscape-banner.jpg" alt="banner em landscape" class="banner__image">
+            <div class="textBanner__Container">
+                    <h1 class="banner__Text">Está na dúvida de onde ir? </br>Tudo bem!</h1>
+                    <button class="banner__button"><p class="text_button">Busca flexível</p></button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
