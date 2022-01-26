@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+.sectionCards{
+    padding: 100px 50px 70px;
+}
+
+.sectionCards__Title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    margin-bottom: 1.5em;
+}
+
+.cardsGroup{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardGroup__cardLink{
+    background-color: brown;
+    height: 410px;
+    border-radius: 15px;
+    color: white;
+}
+
+.cardGroup__cardLink, .cardLink__img{
+    width: 320px;
+}
+
+.cardLink__img{
+    border-radius: 15px 15px 0 0;
+}
+
+.cardTexts{
+    padding: 10px 20px;
+}
+
+.cardLink__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin-bottom: 0.2em;
+}
+
+.cardLink__description{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.color1{
+    background-color: #d93b30;
+}
+
+.color2{
+    background-color: #bc1a6e;
+}
+
+.color3{
+    background-color: #cc2d4a;
+}
+
+.color4{
+    background-color: #de3151;
+}

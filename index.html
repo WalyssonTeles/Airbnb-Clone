@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/banner.css">
+    <link rel="stylesheet" href="/assets/css/sectionCards.css">
+    <link rel="stylesheet" href="/assets/css/sectionExperiencias.css">
 
 </head>
 <body>
@@ -96,10 +98,48 @@
         <div class="banner__Container">
             <img src="/assets/img/landscape-banner.jpg" alt="banner em landscape" class="banner__image">
             <div class="textBanner__Container">
-                    <h1 class="banner__Text">Está na dúvida de onde ir? </br>Tudo bem!</h1>
-                    <button class="banner__button"><p class="text_button">Busca flexível</p></button>
+                    <h1 class="banner__Text">Está na dúvida de onde ir? </br><span id="tudoBem">Tudo bem!</span></h1>
+                    <button class="banner__button" onclick="button()"><p class="text_button">Busca flexível</p></button>
             </div>
         </div>
     </section>
+    <section class="sectionCards">
+        <h1 class="sectionCards__Title">Inspiração para sua próxima viagem</h1>
+        <div class="cardsGroup">
+            <a href="#" class="cardGroup__cardLink color1">
+                <img class="cardLink__img" src="https://a0.muscache.com/im/pictures/aef20929-0d6a-40e7-8ac9-321ff0edf8c9.jpg?im_q=highq&im_w=720" alt="">
+                <div class="cardTexts">
+                    <h2 class="cardLink__title">Pirenópolis</h2>
+                    <p class="cardLink__description">111 km de distância</p>
+                </div>
+            </a>
+            <a href="#" class="cardGroup__cardLink color2">
+                <img class="cardLink__img" src="https://a0.muscache.com/im/pictures/2d80dcb3-cbe3-4414-ac0f-3a6af22b9ab3.jpg?im_q=highq&im_w=720" alt="">
+                <div class="cardTexts">
+                    <h2 class="cardLink__title">Caldas Novas</h2>
+                    <p class="cardLink__description">231 km de distância</p>
+                </div>
+            </a>
+            <a href="#" class="cardGroup__cardLink color3">
+                <img class="cardLink__img" src="https://a0.muscache.com/im/pictures/73250991-433e-4950-b7d1-59bba711bb57.jpg?im_q=highq&im_w=720" alt="">
+                <div class="cardTexts">
+                    <h2 class="cardLink__title">Cavalcante</h2>
+                    <p class="cardLink__description">226 km de distância</p>
+                </div>
+            </a>
+            <a href="#" class="cardGroup__cardLink color4">
+                <img class="cardLink__img" src="https://a0.muscache.com/im/pictures/0d4ae5be-37d9-400c-917a-de52a034fe4c.jpg?im_q=highq&im_w=720" alt="">
+                <div class="cardTexts">
+                    <h2 class="cardLink__title">Abadiânia</h2>
+                    <p class="cardLink__description">96 km de distância</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="sectionExperiencias">
+        <h1 class="sectionExperiencias__Title">Descubra as experiências no Airbnb</h1>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,12 @@
+.sectionExperiencias{
+    background-color: #fff8eb;
+    height: 600px;
+    padding: 20px 50px 70px;
+}
+
+.sectionExperiencias__Title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    margin-bottom: 1.5em;
+}
