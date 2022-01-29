@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 .sectionCards{
-    padding: 100px 50px 70px;
+    padding: 100px 80px 70px;
 }
 
 .sectionCards__Title{
@@ -24,13 +24,13 @@ font-family: 'Roboto', sans-serif;
 
 .cardGroup__cardLink{
     background-color: brown;
-    height: 410px;
+    height: 372px;
     border-radius: 15px;
     color: white;
 }
 
 .cardGroup__cardLink, .cardLink__img{
-    width: 320px;
+    width: 279.25px;
 }
 
 .cardLink__img{
